@@ -1,0 +1,79 @@
+html, body, #app, #app>div {
+  height: 100%
+}
+
+.top-bar {
+  display: inline-block;
+  width:100%;
+  background-color: rgb(51, 115, 200);
+  padding-left: 10px;
+}
+
+.content-container {
+  background-color: rgb(64, 64, 64);
+  font-size: 18px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.left-panel {
+  background-color: rgb(30, 88, 164);
+  flex: 2;
+}
+.middle-panel {
+  background-color: rgb(22, 56, 119);
+  flex: 3;
+}
+.right-panel {
+  background-color: rgb(0, 0, 64);
+  flex: 5;
+  position: relative;
+}
+.row {
+  display: flex;
+  height: 100%;
+}
+
+.obj-item {
+  text-indent: 10%;
+  text-Align:'left';
+  color: rgb(220,220,220);
+  font-Size:'12px';
+}
+
+.btn-div{
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.btn-div button{
+  color: white;
+  border: none;
+  font-size: 31px;
+  height: 30px;
+  width: 30px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 10px;
+}
+
+.top-btn {
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 3px;
+  background: rgba(0%, 0%, 100%, 0);
+  color: white;
+}
+
+.round-btn {
+  border-radius: 20%;
+  text-align: center;
+}
+
+.obj-component {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
